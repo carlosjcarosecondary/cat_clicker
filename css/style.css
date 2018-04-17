@@ -1,8 +1,25 @@
-#gallery {
+h1 {
+	text-align: center;
+}
+
+#wrapper {
+	display: flex;
+}
+
+#gallery-main {
+	background-color: #e7e7e7;
+	width: 55%;
+	border: 2px solid red;
+}
+
+#gallery-secondary {
 	display: flex;
 	flex-wrap: wrap;
+	border: 2px solid red;
+	width: 35%;
 }
 
 figcaption {
 	text-align: center;
 }
+
